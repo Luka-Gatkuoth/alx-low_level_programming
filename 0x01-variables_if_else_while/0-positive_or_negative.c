@@ -1,8 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 /**
- * main: get the random number , print if the number
+ * main - entry point
+ *description- get the random number , print if the number
  * is positve, negative or zero
  * return: always 0( success)
  */
@@ -13,6 +17,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
        if (n > 0)
 	{
 		printf("%d is positive\n", n);
