@@ -2,13 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 /**
- * main - print if the number is positive, negative or 0
- * return: always 0( success)
- */
+* main- print if the number is positive, negative or 0
+* Return: always 0( success)
+*/
 
 int main(void)
 {
@@ -16,7 +13,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
 
 	if (n > 0)
 	{
@@ -30,5 +26,6 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
+
 	return (0);
 }
