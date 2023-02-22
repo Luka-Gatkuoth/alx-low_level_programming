@@ -4,11 +4,10 @@
  * main - Test function for positive or negative
  * Return: 0
  */
- int main(void)
- {
+int main(void)
+{
 int i;
 i = 0;
- 
 if (i > 0)
 {
 printf("%d is positive\n", i);
