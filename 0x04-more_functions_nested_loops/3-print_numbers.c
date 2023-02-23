@@ -6,11 +6,8 @@
 */
 void print_numbers(void)
 {
-int start = 0, end = 9;
-while (start <= end)
-{
-_putchar(start + '0');
-start++;
-}
+int x;
+for (x = 0; x < 10; x++)
+_putchar(x + '0');
 _putchar('\n');
 }
