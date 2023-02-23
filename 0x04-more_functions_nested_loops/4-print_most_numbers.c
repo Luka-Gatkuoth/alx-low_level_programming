@@ -6,18 +6,13 @@
 */
 
 void print_most_numbers(void);
+void print_most_numbers(void)
 {
-int x = 0;
-for (; x <= 9; x++)
+int x;
+for (x = 0; x < 10; x++)
 {
-if (x == 2 || x == 4)
-{
-continue;
-}
-else
-{
+if (x != 2 && x != 4)
 _putchar(x + '0');
-}
 }
 _putchar('\n');
 }
