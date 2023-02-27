@@ -5,7 +5,7 @@
 * @str: The string to be reverse
 * Return: Nothing
 */
-void print_rev(char *str)
+void print_rev(char *s)
 {
 int c = 0;
 while (s[c] != '\0')
