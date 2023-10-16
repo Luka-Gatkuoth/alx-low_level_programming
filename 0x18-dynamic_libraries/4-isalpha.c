@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_isalpha - returns 1 if c is a letter 
+*_isalpha - returns 1 if c is a letter
 * @c: integer to be tested
 * Return: 1 if letter otherwise 0
 */

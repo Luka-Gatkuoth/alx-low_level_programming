@@ -4,7 +4,7 @@
 * *_strcpy -  copies the string pointed to by the src
 * @dest: char type strings
 * @src: char type strings
-* Description: Copy string pointed to by pointer `src` to 
+* Description: Copy string pointed to by pointer `src` to
 * the buffer pointed to by `dest`
 * Return: Pointer to `dest`
 */

@@ -21,4 +21,4 @@ dest[index] = '\0';
 index++;
 }
 return (dest);
-} 
+}
