@@ -22,4 +22,5 @@ return (NULL);
 for (i = 0; i < size; i++)
 ht->array[i] = NULL;
 return (ht);
+printf("\n);
 }
