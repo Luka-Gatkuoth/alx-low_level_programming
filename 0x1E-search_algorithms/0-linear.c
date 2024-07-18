@@ -24,6 +24,7 @@ printf("Value checked array[%ld] = [%d]\n", i, array[i]);
 if (array[i] == value)
 {
 return (i);
+break;
 }
 }
 return (-1);
