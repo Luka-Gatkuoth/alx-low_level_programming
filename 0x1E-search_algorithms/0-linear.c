@@ -23,8 +23,8 @@ for (x = 0; x < size; x++)
 printf("Value checked array[%li] = [%i]\n", x, array[x]);
 if (array[x] == value)
 {
-	return (x);
+return (x);
 }
 }
-	return (-1);
+return (-1);
 }
