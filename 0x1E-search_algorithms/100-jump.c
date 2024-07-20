@@ -23,7 +23,7 @@ return (a <= b ? a : b);
  * @size: number of elements in arrays
  * @value: value to search for ...
  *
- * Return: The position or index of the `value`, otherwise -1 if `element` doesn't exist  or if `array` is NULL
+ * Return: Index of the `value`, otherwise -1
  */
 
 int jump_search(int *array, size_t size, int value)
